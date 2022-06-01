@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!--Link a Css-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!--link de Tipografias--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--Animacion Logo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--Nombre de la pestana del navegador-->
+    <title>FAQ | El Atelier Cocina</title>
+
+    <!--Descripcion Faqs-->
+    <meta name="description" content="Frequently asked questions">
+
+    <!--Palabras claves-->
+    <meta name="keywords" content="home, delivery, zone, dishes, minimum, dishes, payment, means, Creditcard, banktransfer, cash, time, delated, shipping, cost">
+
+</head>
+
+<body>
+    <div class="contenedorPadreFaq">
+
+        <header>
+            <!--logo de la tienda + btm al index-->
+            <div class="headerLogo">   
+                <a href="../index.html">   
+                <img class="animate__animated animate__heartBeat imgLogo" src="../img/Logo 200px.png" alt="logo de la marca">
+                </a>
+            </div>
+
+            <!--Menu de navegacion + stick-->
+            <div class="contNavbar">
+                <nav class="navbar navbar-expand-md navbar-light menuHeader">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="foodToGo.html">Food to Go</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="faq.html">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contacUs.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!--carrito de compras-->
+                <div class="headerChart"> 
+                    <a href="error404.html">
+                    <img src="../img/Cart-black-75px-transformed.png" alt="carrito de compras">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="contMainFaqs">
+            <main>
+                <!--titulo principal-->
+                <div class="tituloFaqs">
+                    <h1>FAQs</h1>
+                </div>
+            </main>    
+
+            <section class="section1">    
+                <!--titulo secudario-->
+                <div class="subFaqs">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+            </section> 
+
+            <section class="section2">
+                <!--preguntas Frecuentes-->
+                <div. class="contS2Faq">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item estilosAcordion">
+                            <h3 class="accordion-header" >
+                                <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How do I make my order?
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse estiloTextoAcord"  aria-labelledby="headingOne"data-bs-parent="#accordionExample">
+                                <div class="accordion-body estiloTextoAcord">
+                                <p>In our <strong>"Food to Go"</strong> section, select your favorite dish and add it, to the shopping cart.</p>
+                                <p>You can choose the dishes that you like the most.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item estilosAcordion">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How far in advance should I place my order?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body estiloTextoAcord">
+                                    <p>We receive orders with a minimum of<strong> 72 hours</strong> in advance, more than anything to prepare them correctly. At the end of your purchase, you can select the delivery date.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item estilosAcordion">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What means of payment do you accept?
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"data-bs-parent="#accordionExample">
+                                <div class="accordion-body estiloTextoAcord">
+                                    <p> You can pay with <strong>Credit Card </strong>at the time of completing the purchase, by <strong>bank transfer</strong> or in<strong> cash </strong> when you receive the food.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item estilosAcordion">
+                            <h3 class="accordion-header" >
+                                <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    what is the shipping cost?
+                                </button>
+                            </h3>
+                            <div id="collapseFour" class="accordion-collapse collapse"  aria-labelledby="headingFour"data-bs-parent="#accordionExample">
+                                <div class="accordion-body estiloTextoAcord">
+                                <p>If you buy <strong>15 plates</strong> or more, the shipping cost is u$s 12.00.
+                                For smaller orders the shipping cost is u$s 25.00-.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item estilosAcordion">
+                            <h3 class="accordion-header" >
+                                <button class="accordion-button estiloTextoAcord" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                    In which areas do they deliver?
+                                </button>
+                            </h3>
+                            <div id="collapseFive" class="accordion-collapse collapse"  aria-labelledby="headingFive"data-bs-parent="#accordionExample">
+                                <div class="accordion-body estiloTextoAcord">
+                                <p>Entire west coast of california</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3">
+                <!--Logo Whatsapp con efecto fixed-->
+                <div class="editWs">
+                    <a href="https://wa.link/pgg7x1" target="_blank">
+                    <img class="wsAnime" src="../img/wsap-transformed.png" alt="logo de WSap">
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+           <!--imagen derechos reservados-->    
+           <div class="footerImgC">  
+               <img src="../img/derechos-sinfondo-50px.png" alt="Logo de los derechos de autor C">
+           </div>
+
+           <!--Detalle de derechos reservados--> 
+           <div class="footerText">    
+               <h3>2022 copyright.</h3> 
+               <h3>Created by <span>LeoNumbela</span></h3> 
+           </div>
+
+           <!--Logo de las redes con enlaces absolutos-->
+           <div class="footerRedes">
+                <a href="https://www.facebook.com/elateliercocina/" target="_blank">
+                 <img class="sideF" src="../img/face-transformed-75px-transformed.png" alt="logo de facebook">
+                </a>
+                <a href="https://www.instagram.com/el_atelier_cocina" target="_blank">
+                 <img class="sideI" src="../img/inst-transformed-75px-transformed.png" alt="logo de instagram">
+                </a>
+           </div>
+        </footer> 
+        
+    </div>
+
+    <!--Link de Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+</html>
+
